@@ -1,0 +1,34 @@
+.contato {
+    background-color: var(--footer-bg);
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 100px;
+}
+
+.contato__logo {
+    align-self: flex-start;
+}
+
+.contato__lista {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    row-gap: 1px;
+}
+
+.contato__form--nome {
+    height: 40px;
+    width: 415px;
+    margin-bottom: 8px;
+}
+
+.contato__form--texto {
+    margin-top: 8px;
+}
+
+.contato__form--botao {
+    margin-top: 8px;
+    padding: 12px 24px;  
+    background-color: var(--azul);
+    color: var(--branco);
+}

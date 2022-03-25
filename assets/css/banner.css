@@ -1,0 +1,43 @@
+.banner {
+    background: url('../img/banner.png') center / cover no-repeat;  
+    height: 300px;
+    padding: 12px 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.banner__titulo {
+    margin-top: 100px;
+    font-size: 54px;
+    font-weight: 700;
+    color: var(--branco);        
+}
+
+.banner__texto {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--branco);
+    margin-top: 24px;
+}
+
+.banner__botao {
+    margin-top: 16px;
+    border: 1px solid var(--azul);
+    color: var(--azul);
+    padding: 16px 32px;
+    background-color: var(--azul);
+    color: var(--branco); 
+    width: 10%;
+    text-align: center;          
+}
+
+@media screen and (min-width: 768px) {
+    .banner {
+        width: 100vw;
+        background-position: center;
+        background-size: cover;
+    }
+}
+    
+
